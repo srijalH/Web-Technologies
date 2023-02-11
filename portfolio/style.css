@@ -1,0 +1,221 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans+Extra+Condensed:wght@200&family=Raleway:wght@200&family=Source+Code+Pro:ital,wght@1,200&display=swap');
+*{
+padding: 20px;
+margin: 20px;
+box-sizing: border-box;
+overflow: hidden;
+}
+.list{
+    width: 30%;
+    height: 100vh;
+    background-color: rgb(205, 203, 203);
+}
+.para{
+background-color: red;
+}
+.container{
+    display: flex;
+}
+.list nav li{
+    padding-top: 10vh;
+    font-size: 20px;
+    padding-left: 40px;
+}
+.list ul li a{
+    text-decoration: none;
+    color: blue;
+}
+.infocontainer{
+    height: 70vh;
+    width: 80vw;
+    margin: 10%;
+    display: flex;
+    justify-content: space-around;
+
+}
+.devpic figure img{
+    height: 70vh;
+    position: absolute;
+    bottom: 150px;
+    right: 110px;
+}
+
+.devinfo{
+    margin-top: 15%;
+    font-size: 20px;
+
+}
+.hello{
+    font-size: 60px;
+    font-family: 'Source Code Pro', monospace;
+}
+.name{
+font-size: 60px;
+font-weight: bold;
+font-family: 'Fira Sans Extra Condensed', sans-serif;
+}
+.about{
+font-size: 30px;
+font-family: 'Source Code Pro', monospace;
+}
+.buttons button{
+    border-radius: 15px;
+    padding: 10px;
+    color: yellow;
+    background-color: black;
+    font-size: 30px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+.buttons button:hover{
+    color: black;
+    background-color:green;
+}
+.contactform{
+    font-family: 'Fira Sans Extra Condensed', sans-serif;
+    padding: 20%;
+}
+.contactform h2{
+    text-align: center;
+    color: sandybrown;
+    padding-bottom: 5%;
+    padding-top: 10%;
+}
+.form-text{
+    color: yellowgreen;
+}
+.contactform form div{
+    padding: 5%;
+}
+@media screen and (max-width:600px)
+{
+    .devinfo{
+        margin-top: 5%;
+        font-size: 10px;
+        padding-right: 60%;
+    }
+    .hello{
+        font-size: 40px;
+        font-family: 'Source Code Pro', monospace;
+    }
+    .name{
+        font-size: 30px;
+        font-weight: bold;
+        font-family: 'Fira Sans Extra Condensed', sans-serif;
+        }
+    .list nav li{
+        padding-top: 5vh;
+        font-size: 20px;
+        padding-left: 0px;
+        }
+    .list{
+            width: 15%;
+            height: 100vh;
+            background-color: rgb(205, 203, 203);
+        }
+}
+@media screen and (max-width:1000px)
+{
+    .devpic figure img{
+        height: 50vh;
+        bottom: 230px;
+        right: -10px;
+    }
+    .devinfo{
+        margin-top: 9%;
+        font-size: 30px;
+        padding-right: 40%;
+    }
+    .list nav li{
+        padding-top: 5vh;
+        font-size: 20px;
+        padding-left: 8px;
+        }
+    .list{
+            width: 15%;
+            height: 100vh;
+            background-color: rgb(205, 203, 203);
+        }
+    
+}
+@media screen and (min-width:1000px)
+{
+    .devpic figure img{
+        height: 50vh;
+        bottom: 230px;
+        right: -10px;
+    }
+    .devinfo{
+        margin-top: 4%;
+        font-size: 30px;
+        padding-right: 40%;
+    }
+    
+}
+.intro h2{
+    text-align: center;
+    padding-top: 10px;
+}
+.intro p{
+    font-size: 20px;
+    color: rgb(3, 3, 3);
+    padding: 40px;
+    padding-left: 150px;
+    padding-right: 150px;
+    margin-left: 40px;
+    margin-right: 20px;
+    /* background-color: red; */
+    font-family: 'Source Code Pro', monospace;
+}
+.skillitem{
+    display: flex;
+    font-size: 20px;
+    padding: 10px;
+    align-items: center;
+    padding-left: 160px;
+}
+.skillcontainer{
+    padding: 30px;
+}
+.skills1{
+    width: 400px;
+    height: 6px;
+    background-color: red;
+}
+.skills2{
+    width: 360px;
+    height: 6px;
+    background-color: red;
+}
+.skills3{
+    width: 200px;
+    height: 6px;
+    background-color: red;
+}
+.skills4{
+    width: 340px;
+    height: 6px;
+    background-color: red;
+}
+.skills5{
+    width: 300px;
+    height: 6px;
+    background-color: red;
+}
+.servicecontainer h2{
+    text-align: center;
+    padding-top: 10px;
+    font-family: 'Fira Sans Extra Condensed', sans-serif;
+}
+.servicecontainer p{
+    font-size: 20px;
+    padding-left: 40px;
+    padding-right: 40px;
+    font-family: 'Source Code Pro', monospace;
+}
+.servicecontainer ul{
+    font-size: 20px;
+    text-align: center;
+    padding-top: 2%;
+    font-family: 'Source Code Pro', monospace;
+}
